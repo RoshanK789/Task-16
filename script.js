@@ -14,7 +14,7 @@ const ts=1714125917204;
 //console.log(ts);
 const publickey="3b1a85b0bc529851fb913ecdf6fc66ef";
 const hash="1c410769c9fa7b90df22b8b44fc68514";
-const respone=fetch("http://gateway.marvel.com/v1/public/comics?ts=1714126553675&apikey=3b1a85b0bc529851fb913ecdf6fc66ef&hash=39546bf3f416e296a5ce9a47fd0c6ffe");
+const respone=fetch("https://gateway.marvel.com/v1/public/comics?ts=1714126553675&apikey=3b1a85b0bc529851fb913ecdf6fc66ef&hash=39546bf3f416e296a5ce9a47fd0c6ffe");
 
 //const respone=fetch("http://gateway.marvel.com/v1/public/characters?ts=1714126553675&apikey=3b1a85b0bc529851fb913ecdf6fc66ef&hash=39546bf3f416e296a5ce9a47fd0c6ffe")
 
@@ -46,7 +46,7 @@ document.body.append(container)
 function btn(id)
 {
   const ids=id;
-  const respone=fetch(`http://gateway.marvel.com/v1/public/comics/${ids}/creators?ts=1714126553675&apikey=3b1a85b0bc529851fb913ecdf6fc66ef&hash=39546bf3f416e296a5ce9a47fd0c6ffe`);
+  const respone=fetch(`https://gateway.marvel.com/v1/public/comics/${ids}/creators?ts=1714126553675&apikey=3b1a85b0bc529851fb913ecdf6fc66ef&hash=39546bf3f416e296a5ce9a47fd0c6ffe`);
   respone.then((data)=>data.json())
   .then((ele)=>{
     //console.log(ele.data.results[0].id);
