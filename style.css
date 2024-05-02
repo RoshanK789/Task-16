@@ -1,0 +1,39 @@
+.s
+{
+    text-align:center;
+    color:white;
+    background-color: red;
+    width:170px;
+}
+p{
+    color:black !important;
+}
+img{
+    height:300px !important;
+    
+}
+img:hover
+{
+    transform: scale(1.1); 
+    
+}
+.textcolor:hover
+{
+    color:red !important;
+}
+.card-body
+{
+    
+    color:black;
+}
+.ss
+{
+    border:none !important;
+}
+.width
+{
+    width:200px;
+}
+
+
+
